@@ -18,6 +18,10 @@ Modu Deep Lab Image Team
 
    한승엽 - Crawling Images / 신성진 - CK(+) / 추광재 - JAFFE / 전창욱 - RaFD
 
+신성진 CK & CK+ Data
+
+link: https://drive.google.com/file/d/0Bx984wTo1QhfUnVldXJRUTM5ODQ/view?usp=sharing
+
 3.하나의 감정을 모델링까지 (가능하다면) - Happy 인지 아닌지
 
 <프로젝트 관련>
