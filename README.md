@@ -22,15 +22,17 @@ Modu Deep Lab Image Team
 
 link: https://drive.google.com/file/d/0Bx984wTo1QhfUnVldXJRUTM5ODQ/view?usp=sharing
 
-한승엽 - Crawling Images
-
-link: https://drive.google.com/open?id=0B91EMY769GPfMjRvUl9Gb0ktRFU
+한승엽 - Crawling Images 
 
   추출방법 : t = pickle.load(open("emotion_crawling_dataset.pickle", "r"))
   
   y = t['train_labels']
   
   x = t['train_dataset']
+
+link: https://drive.google.com/open?id=0B91EMY769GPfMjRvUl9Gb0ktRFU
+
+
 
 
 3.하나의 감정을 모델링까지 (가능하다면) - Happy 인지 아닌지
