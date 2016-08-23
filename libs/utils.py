@@ -74,57 +74,6 @@ def montage(images, saveto='montage.png'):
     plt.imsave(arr=m, fname=saveto)
     return m
 
-
-def get_celeb_files():
-    """Downloads the first 100 images of the celeb dataset.
-
-    Files will be placed in a directory 'img_align_celeba' if one
-    doesn't exist.
-
-    Returns
-    -------
-    files : list of strings
-        Locations to the first 100 images of the celeb net dataset.
-    """
-    # Create a directory
-    if not os.path.exists('img_align_celeba'):
-        os.mkdir('img_align_celeba')
-
-    # Now perform the following 100 times:
-    for img_i in range(1, 101):
-
-        # create a string using the current loop counter
-        f = '000%03d.jpg' % img_i
-        
-        if os.path.exists('img_align_celeba/'+f):
-            continue
-
-        # and get the url with that string appended the end
-        url = 'https://s3.amazonaws.com/cadl/celeb-align/' + f
-
-        # We'll print this out to the console so we can see how far we've gone
-        print(url, end='\r')
-
-        # And now download the url to a location inside our new directory
-        urllib.request.urlretrieve(url, os.path.join('img_align_celeba', f))
-
-    files = [os.path.join('img_align_celeba', file_i)
-             for file_i in os.listdir('img_align_celeba')
-             if '.jpg' in file_i]
-    return files
-
-
-def get_celeb_imgs():
-    """Loads the first 100 images of the celeb dataset.
-
-    Returns
-    -------
-    imgs : list of np.ndarray
-        List of the first 100 images from the celeb dataset
-    """
-    return [plt.imread(f_i) for f_i in get_celeb_files()]
-
-
 def gauss(mean, stddev, ksize):
     """Uses Tensorflow to compute a Gaussian Kernel.
 
