@@ -1,7 +1,7 @@
 
 # Modu_Image
-Modu Deep Lab Image Team
-
+Modu Deep Lab Image Team 
+ 
 2016.8.24. 표정인식 
 <오늘 한 내용> 
 1. 장난감 그룹 진행 사항 소개 
