@@ -3,6 +3,10 @@ https://github.com/isseu/emotion-recognition-neural-networks
 
 # Modu_Image
 Modu Deep Lab Image Team
+2016.8.24. 표정인식
+<오늘 한 내용>
+Q-Learning Study
+서기호 데이타셋 링크 : 
 
 
 
