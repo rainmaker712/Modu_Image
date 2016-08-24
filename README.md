@@ -1,13 +1,20 @@
-Open Source Link
-https://github.com/isseu/emotion-recognition-neural-networks
 
 # Modu_Image
 Modu Deep Lab Image Team
-2016.8.24. 표정인식
-<오늘 한 내용>
-Q-Learning Study
-서기호 데이타셋 링크 : 
 
+2016.8.24. 표정인식 
+<오늘 한 내용> 
+1. 장난감 그룹 진행 사항 소개 
+ - Vision + CNN > Q-Learning > 유전자 알고리즘 3가지를 알아 봤고 가장 쉬운 유전자 알고리즘 부터 시작 했다. 
+ - 장난감 키트는 3개 제작 하였다. 
+ - 앞으로의 진행 방향에 대한 설명 
+2. Q-Learning 개념 설명 (소장님) 
+3. RaFD 데이터 Set은 학교에서만 신청이 가능해서 국민대 교수님에게 부탁하는게 좋을거 같다는 의견 도출 
+4. 강은숙 연구원, 서기호 연구원에게 우리 그룹의 진행 방향에 대해서 간략한 설명 
+5. 다음주 진행 할 내용 이야기
+  - Kadenze 2장 
+  - Network 같이 설계 (Happy  인지 아닌지 만 분류 해보자) 
+  - 데이터 수집(각자 수집 요청) 및 Zero Centers & Normalization
 
 
 2016.8.17. 표정인식
