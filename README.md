@@ -59,5 +59,6 @@ link: https://drive.google.com/open?id=0B91EMY769GPfMjRvUl9Gb0ktRFU
 
 3.최종적으로는 얼굴특징인식(화살표 방식의 특징 인식 기법)을 이용하여 인식율을 올려보자.
 
-Fer2013 Emotion Rule
+<Fer2013 Emotion Rule>
+
 0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral)
