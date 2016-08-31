@@ -61,4 +61,4 @@ link: https://drive.google.com/open?id=0B91EMY769GPfMjRvUl9Gb0ktRFU
 
 < Fer2013 Emotion Rule >
 
-0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral)
+0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral
