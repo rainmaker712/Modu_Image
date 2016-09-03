@@ -1,6 +1,36 @@
 
 # Modu_Image
 Modu Deep Lab Image Team 
+
+2016.8.31. 표정인식팀 진행내용 정리
+
+1.TFlearn으로 된 소스코드 리뷰 ==> 모델링팀에서 진행
+
+2.Kadenze Lecture #2
+- Lecture2 의 Training Parameters부터 다시 리뷰하기로 함.
+
+3.참고자료
+1)Deep Face 논문 (3D face recognition by Facebook AI team)
+https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf
+
+2)Face Detection with Dlib in Python : 간단하게 구현 가능 
+
+http://dlib.net/face_detector.py.html
+
+4.프로젝트 방향 : 정지영상(이미지)에서 얼굴을 감지한 후 감정별로 이미지를 분류하는 서비스 
+1)데이터 전처리 ==> 전처리팀
+2)데이터 트레이닝은 기존 소스를 이용해서 전처리한 데이터로 수행 ==> 모델링팀
+3)무작위 이미지 디렉토리를 입력으로 제공하면 자동으로 감정 디렉토리별로 분류함. ==> 함께 진행. 
+
+5.두팀으로 나누어서 진행
+1)전처리팀: 전창욱, 강은숙, 옥정훈, HJM 
+; 데이터전처리(googling DB, CK+, JAFfE) + 디렉토리별(감정별) 분류 + Face Detection  
+
+2)모델링팀: 한승엽, 신성진, 추광재, 서기호
+; 기존 소스를 현재 데이터로 돌아가게 만들어서 학습시키기 + Face Detection(전처리팀) + 이미지를 감정디렉토리별로 분류
+
+6.우리조 발표: 9/14
+
  
 2016.8.24. 표정인식 
 <오늘 한 내용> 
