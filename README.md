@@ -31,6 +31,11 @@ http://dlib.net/face_detector.py.html
 
 6.우리조 발표: 9/14
 
+7. JAFEE DB 설명 (추광재 님)
+http://www.kasrl.org/jaffe.html
+
+jaffe db 다운로드 링크입니다.
+http://www.kasrl.org/jaffe_info.html
  
 2016.8.24. 표정인식 
 <오늘 한 내용> 
