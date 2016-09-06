@@ -1,0 +1,2 @@
+model_checkpoint_path: "model_alexnet-2000"
+all_model_checkpoint_paths: "model_alexnet-2000"
