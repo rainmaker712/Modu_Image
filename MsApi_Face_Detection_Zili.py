@@ -8,7 +8,7 @@ import numpy as np
 import os
 
 URL = 'https://api.projectoxford.ai/face/v1.0/detect'   #Detect Face Url
-KEY = '2d3bf64a34da4f0e8af2b0ad5e4d632d'    #Login Key
+KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx'    #Login Key
 
 #Save Path Define
 DATA_PAHT = '/Users/JunChangWook/Tensorflow/Data/Mirror/data/'
