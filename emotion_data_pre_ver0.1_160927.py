@@ -74,7 +74,7 @@ for i, relpath in zip(range(nclass), paths):
             continue
         fullpath = os.path.join(path, f)
         currimg = cv2.imread(fullpath)
-        currimg = cv2.bilateralFilter(currimg, 9, 75, 75) #Image smoothing
+        #currimg = cv2.bilateralFilter(currimg, 9, 75, 75) #Image smoothing
         #Convert to grayscale
         if use_gray:
             grayimg = rgb2gray(currimg)
