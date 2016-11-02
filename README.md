@@ -2,6 +2,26 @@
 # Modu_Image
 Modu Deep Lab Image Team 
 
+2016.9.7. 표정인식팀 진행내용 정리
+
+1. 전창욱님
+- MS API를 사용하여 DataSet Labeling 1차 구현 방법 공유
+
+2. 신성진님
+- MS API 관련하여 openCV를 사용한 방법 공유
+- CNN FootBall Sound Data 오픈 소스 공유, 소리의 파장 데이터인 이미지를 CNN에 학습시킨 방법
+- For 2013, csv데이터를 사용하여 데이터 전처리 방법 공유 : fer2013_read_Data.ipynb
+- RaFD DataSet을 Kadenze 강의에서 사용했던 모델을 사용하여 모델 구현 방법 공유
+
+3. 서기호님
+- 딥마인드에서 만든 Neural Tunning Machine 논문 공유 
+	: RNN, LSTM에 과 달리 Memory를 사용하여 보다 좋은 효율을 낼 수 있는 기법
+
+4. 기타 토의 
+- DataSet을 Model에 어떻게 넣어서 학습을 시켜야 하나??
+ : MNIST 처럼 구성하면 될것 같은데 어떻게 구성해야하는지 검토 필요!
+- 9/21 발표준비
+
 2016.8.31. 표정인식팀 진행내용 정리
 
 1.TFlearn으로 된 소스코드 리뷰 ==> 모델링팀에서 진행
